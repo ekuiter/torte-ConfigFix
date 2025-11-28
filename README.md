@@ -1,6 +1,6 @@
 # torte-ConfigFix
 
-*This repository contains a distribution of ConfigFix that extracts feature-model formulas from KConfig files.*
+*This repository contains a distribution of [ConfigFix](https://github.com/isselab/configfix) that extracts feature-model formulas from KConfig files.*
 
 **Why this repository?** The main issue with integrating ConfigFix into torte is its size, because it includes a complete copy of the Linux kernel Git repository, which is several GiB in size.
 While this works, it causes long build times and large Docker images.
