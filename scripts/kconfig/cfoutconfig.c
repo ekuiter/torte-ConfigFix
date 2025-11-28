@@ -20,8 +20,10 @@
 #include "cf_utils.h"
 #include "cf_constraints.h"
 
-#define OUTFILE_CONSTRAINTS "./scripts/kconfig/cfout_constraints.txt"
-#define OUTFILE_DIMACS "./scripts/kconfig/cfout_constraints.dimacs"
+// #define OUTFILE_CONSTRAINTS "./scripts/kconfig/cfout_constraints.txt"
+// #define OUTFILE_DIMACS "./scripts/kconfig/cfout_constraints.dimacs"
+#define OUTFILE_CONSTRAINTS "cfout_constraints.txt"
+#define OUTFILE_DIMACS "cfout_constraints.dimacs"
 
 static void write_constraints_to_file(struct cfdata *data);
 static void write_dimacs_to_file(PicoSAT *pico, struct cfdata *data);
